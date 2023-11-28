@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter App Stretch Version</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1><span>Exercise Mania </span>🏋️‍♂️<br>Push-up 🙇 Counters</h1>
+        <h1 id="count-el">0</h1>
+        <button id="push-up-btn" onclick="incrementPushUp()">Push-up</button>
+        <button id="tracking-btn" onclick="saveTracking()" disabled>Tracking</button>
+        <button id="reset-btn" onclick="reset()">Reset</button>
+        <p id="save-el">Previous Entries: </p>
+        <h4 id="total-push-up-el">Total: </h4>
+        <h3 id="message-el"></h3>
+    </div>
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
